@@ -891,7 +891,8 @@ public class NeighborJoining
         {
             for (int j = 0; j < matrix[0].length; j++)
             {
-                s.append(String.format(maxLengthString, String.valueOf(matrix[i][j])));
+                s.append(String.format(maxLengthString,
+                                       String.valueOf(matrix[i][j])));
 
                 if (j != matrix[0].length-1)
                 {
